@@ -1,0 +1,90 @@
+.ajax-comments-wrapper {
+	border: 1px solid #D0D0D0;
+	background: #F5F5F5;
+	clear: both;
+	display: block;
+	margin: 0px;
+	padding-bottom: 10px;
+	display: block;
+	-moz-border-radius: 10px;
+}
+.ajax-comments .more {margin-right:10px;}
+.ajax-comment, .ajax-comment-alt {
+	position: relative;
+	display: block;
+	margin: 5px 5px 10px 5px;
+	padding: 0 0 1px 0;
+	clear: both;
+	color: #222;
+	font-weight: normal;
+	line-height: 120%;
+	border: 1px solid #D0D0D0;
+	-moz-border-radius: 10px;
+	overflow: hidden;
+}
+.ajax-comment-header, .ajax-comment-header-alt {
+	top: 1px;
+	width: 100%;
+	position: relative;
+	color: #515151;
+	padding: 1px 1px 1px -1px;
+	margin: 0;
+	clear: both;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+}
+.ajax-comment-header {
+	background: #E5E1C8;
+}
+.ajax-comment {
+	background: #F1EDD2;
+}
+.ajax-comment-header-alt {
+	background: #ACB3C0;
+}
+.ajax-comment-alt {
+	background: #CACFD8;
+}
+.ajax-comment-header a, .ajax-comment-header-alt a {	
+	color: #BB4444;
+}
+.ajax-comment-header a:hover, .ajax-comment-header-alt a:hover {
+	text-decoration: none;
+	color: #3C657B;
+}
+.ajax-comment-info {
+	color: #666666;
+	float: right;
+	margin-right: 11px;
+}
+.ajax-comment-author {
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.ajax-comment-text {
+	padding: 5px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 13px;
+	clear: both;
+	display: block;
+}
+.ajax-options a, .ajax-options-hide a {
+	color: #BB4444;
+	text-decoration: none;
+        margin-left: 15px;
+}
+.ajax-options-hide {
+        display: none;
+}
+.waci-comment-form {
+        display: none;
+}
+.waci-comment-form #commentform input, .waci-comment-form #commentform textarea {
+	background-color: #E2ECF5;
+	border: 1px solid #989898; margin: 0px 5px;padding: 5px;
+}
+.waci_comment  {
+    width: 85%;
+}
